@@ -1,0 +1,22 @@
+Scene: Untitled
+Entities:
+  - Entity: 1269797293412051174
+    TagComponent:
+      Tag: Cube.obj
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [10, 0.00999999978, 10]
+    MeshRendererComponent:
+      Filepath: ../Assets\Models\Cube.obj
+      MaterialIndex: 0
+  - Entity: 1854597966325868302
+    TagComponent:
+      Tag: sphere.obj
+    TransformComponent:
+      Translation: [0, 1.326967, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    MeshRendererComponent:
+      Filepath: ../Assets\Models\sphere.obj
+      MaterialIndex: 0
