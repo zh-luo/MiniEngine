@@ -1,0 +1,14 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/GYSS1/Desktop/PBR_DEMO/MiniEngine/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/ninja-win/ninja.exe cmTC_11e4c && [1/2] Building C object CMakeFiles/cmTC_11e4c.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_11e4c.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\LLVM\bin\clang.exe   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_11e4c.dir/CheckIncludeFile.c.obj -MF CMakeFiles\cmTC_11e4c.dir\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_11e4c.dir/CheckIncludeFile.c.obj -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'pthread.h' file not found
+#include <pthread.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
